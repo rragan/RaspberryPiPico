@@ -117,6 +117,7 @@ def gameLoop():
                 
             if (delta > 0 and delta < minTime):
                 #print("Play happy", delta)
+                # Theme Notes from https://onlinesequencer.net/
                 lcd.clear()
                 lcd.putstr('WORD IS INDY')
                 song = '0 E5 3 14;3 F5 1 14;4 G5 2 14;6 C6 7 14;16 D5 3 14;19 E5 1 14;20 F5 9 14;32 G5 3 14;35 A5 1 14;36 B5 2 14;38 F6 8 14;48 A5 3 14;51 B5 1 14;52 C6 4 14;56 D6 4 14;60 E6 2 14'
